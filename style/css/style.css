@@ -30,7 +30,7 @@ input:active {
   width: 80vh;
   padding: 1rem;
   border-style: solid;
-  border-radius: 2rem;
+  border-radius: 1rem;
 }
 
 .chapter__back, .card__chapter {
