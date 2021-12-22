@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+input {
+  appearance: none;
+  border-style: solid;
+  border-radius: 1rem;
+  border-width: 0.2rem;
+  border-color: black;
+  font-family: inherit;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  color: white;
+  background-color: black;
+  width: 100%;
+}
+
+input:hover {
+  color: black;
+  background-color: white;
+  border-style: solid;
+}
+
+input:active {
+  background-color: #343ba8;
+  color: black;
+}
+
+.chapter {
+  display: flex;
+  flex-direction: column;
+  width: 80vh;
+  padding: 1rem;
+  border-style: solid;
+  border-radius: 2rem;
+}
+
+.chapter__back, .card__chapter {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+h1, h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+form {
+  margin-block-end: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 80vh;
+  padding: 1rem;
+  border-style: solid;
+  border-radius: 1rem;
+}
+
+.card__title {
+  display: flex;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.card__chapter {
+  width: 50%;
+}
+
+.chapter__title {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.chapter__back {
+  width: 100%;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+}
+
+.links__link {
+  text-decoration: solid;
+  color: black;
+  margin-bottom: 0.5rem;
+}
+
+.links__link:hover {
+  text-decoration: underline;
+  color: #0004ff;
+}
+
+/*# sourceMappingURL=style.css.map */
